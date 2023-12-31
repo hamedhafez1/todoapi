@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "9YEoHOwAgA6DeSbZXMDJOFsILdahRd1Dm69IQiprlzy8Fbs6p99Y5G3ZzyRT6qWMsqDvMt/SCbh+RztxEJ5fCA==",
+  "dgSpecHash": "PvY718Nzz5TumykbS1GkBCUW03FLTQ5JBDmeJNaPeLfbgaYsjS6fcLJqA9CZL9zIbKiM79wVvCCjMIMpXtBAYg==",
   "success": true,
   "projectFilePath": "D:\\Dev\\DotNetSamples\\TodoApi\\TodoApi.csproj",
   "expectedPackageFiles": [
@@ -192,11 +192,7 @@
     "C:\\Users\\h.hafezghorani\\.nuget\\packages\\system.threading.timer\\4.3.0\\system.threading.timer.4.3.0.nupkg.sha512",
     "C:\\Users\\h.hafezghorani\\.nuget\\packages\\system.windows.extensions\\6.0.0\\system.windows.extensions.6.0.0.nupkg.sha512",
     "C:\\Users\\h.hafezghorani\\.nuget\\packages\\system.xml.readerwriter\\4.3.0\\system.xml.readerwriter.4.3.0.nupkg.sha512",
-    "C:\\Users\\h.hafezghorani\\.nuget\\packages\\system.xml.xdocument\\4.3.0\\system.xml.xdocument.4.3.0.nupkg.sha512",
-    "C:\\Users\\h.hafezghorani\\.nuget\\packages\\microsoft.netcore.app.ref\\7.0.14\\microsoft.netcore.app.ref.7.0.14.nupkg.sha512",
-    "C:\\Users\\h.hafezghorani\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\7.0.14\\microsoft.windowsdesktop.app.ref.7.0.14.nupkg.sha512",
-    "C:\\Users\\h.hafezghorani\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\7.0.14\\microsoft.aspnetcore.app.ref.7.0.14.nupkg.sha512",
-    "C:\\Users\\h.hafezghorani\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\7.0.14\\microsoft.netcore.app.host.win-x64.7.0.14.nupkg.sha512"
+    "C:\\Users\\h.hafezghorani\\.nuget\\packages\\system.xml.xdocument\\4.3.0\\system.xml.xdocument.4.3.0.nupkg.sha512"
   ],
   "logs": []
 }
