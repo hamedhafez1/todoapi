@@ -2006,6 +2006,55 @@
           }
         }
       },
+      "RestClient.Net/6.0.0": {
+        "type": "package",
+        "dependencies": {
+          "RestClient.Net.Abstractions": "6.0.0"
+        },
+        "compile": {
+          "lib/net7.0/RestClient.Net.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net7.0/RestClient.Net.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "RestClient.Net.Abstractions/6.0.0": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.Extensions.Logging.Abstractions": "7.0.0",
+          "Urls": "1.0.0"
+        },
+        "compile": {
+          "lib/net7.0/RestClient.Net.Abstractions.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net7.0/RestClient.Net.Abstractions.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "RestSharp/110.2.0": {
+        "type": "package",
+        "dependencies": {
+          "System.Text.Json": "7.0.2"
+        },
+        "compile": {
+          "lib/net7.0/RestSharp.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net7.0/RestSharp.dll": {
+            "related": ".xml"
+          }
+        }
+      },
       "runtime.debian.8-x64.runtime.native.System.Security.Cryptography.OpenSsl/4.3.0": {
         "type": "package",
         "runtimeTargets": {
@@ -3624,7 +3673,7 @@
           }
         }
       },
-      "System.Text.Json/7.0.0": {
+      "System.Text.Json/7.0.2": {
         "type": "package",
         "dependencies": {
           "System.Text.Encodings.Web": "7.0.0"
@@ -3794,6 +3843,15 @@
         },
         "runtime": {
           "lib/netstandard1.3/System.Xml.XDocument.dll": {}
+        }
+      },
+      "Urls/1.0.0": {
+        "type": "package",
+        "compile": {
+          "lib/net5.0/Urls.dll": {}
+        },
+        "runtime": {
+          "lib/net5.0/Urls.dll": {}
         }
       }
     }
@@ -6679,6 +6737,70 @@
         "lib/netstandard2.0/NuGet.Versioning.xml",
         "nuget.versioning.6.3.1.nupkg.sha512",
         "nuget.versioning.nuspec"
+      ]
+    },
+    "RestClient.Net/6.0.0": {
+      "sha512": "fqLi9OWu4HtS0PlHzoOuLVXdqv42YuOiLEI800jmYtUt0r3QIOptNkn8mtQI6V/zjBORIR3MIJqoCZRXJIhqwg==",
+      "type": "package",
+      "path": "restclient.net/6.0.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Icon.png",
+        "lib/net45/RestClient.Net.dll",
+        "lib/net45/RestClient.Net.xml",
+        "lib/net5.0/RestClient.Net.dll",
+        "lib/net5.0/RestClient.Net.xml",
+        "lib/net6.0/RestClient.Net.dll",
+        "lib/net6.0/RestClient.Net.xml",
+        "lib/net7.0/RestClient.Net.dll",
+        "lib/net7.0/RestClient.Net.xml",
+        "lib/netstandard2.0/RestClient.Net.dll",
+        "lib/netstandard2.0/RestClient.Net.xml",
+        "restclient.net.6.0.0.nupkg.sha512",
+        "restclient.net.nuspec"
+      ]
+    },
+    "RestClient.Net.Abstractions/6.0.0": {
+      "sha512": "XGq/HVrwuEDS4w7Ei1kuJB0Bd9OgHzDSYASGOA6v8QaalKT4twU/o5phW3yAvjtxjoB18TrQdYX2fzRFAXmqIg==",
+      "type": "package",
+      "path": "restclient.net.abstractions/6.0.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Icon.png",
+        "lib/net45/RestClient.Net.Abstractions.dll",
+        "lib/net45/RestClient.Net.Abstractions.xml",
+        "lib/net5.0/RestClient.Net.Abstractions.dll",
+        "lib/net5.0/RestClient.Net.Abstractions.xml",
+        "lib/net6.0/RestClient.Net.Abstractions.dll",
+        "lib/net6.0/RestClient.Net.Abstractions.xml",
+        "lib/net7.0/RestClient.Net.Abstractions.dll",
+        "lib/net7.0/RestClient.Net.Abstractions.xml",
+        "lib/netstandard2.0/RestClient.Net.Abstractions.dll",
+        "lib/netstandard2.0/RestClient.Net.Abstractions.xml",
+        "restclient.net.abstractions.6.0.0.nupkg.sha512",
+        "restclient.net.abstractions.nuspec"
+      ]
+    },
+    "RestSharp/110.2.0": {
+      "sha512": "FXGw0IMcqY7yO/hzS9QrD3iNswNgb9UxJnxWmfOxmGs4kRlZWqdtBoGPLuhlbgsDzX1RFo4WKui8TGGKXWKalw==",
+      "type": "package",
+      "path": "restsharp/110.2.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/net471/RestSharp.dll",
+        "lib/net471/RestSharp.xml",
+        "lib/net6.0/RestSharp.dll",
+        "lib/net6.0/RestSharp.xml",
+        "lib/net7.0/RestSharp.dll",
+        "lib/net7.0/RestSharp.xml",
+        "lib/netstandard2.0/RestSharp.dll",
+        "lib/netstandard2.0/RestSharp.xml",
+        "restsharp.110.2.0.nupkg.sha512",
+        "restsharp.nuspec",
+        "restsharp.png"
       ]
     },
     "runtime.debian.8-x64.runtime.native.System.Security.Cryptography.OpenSsl/4.3.0": {
@@ -10364,10 +10486,10 @@
         "useSharedDesignerContext.txt"
       ]
     },
-    "System.Text.Json/7.0.0": {
-      "sha512": "DaGSsVqKsn/ia6RG8frjwmJonfos0srquhw09TlT8KRw5I43E+4gs+/bZj4K0vShJ5H9imCuXupb4RmS+dBy3w==",
+    "System.Text.Json/7.0.2": {
+      "sha512": "/LZf/JrGyilojqwpaywb+sSz8Tew7ij4K/Sk+UW8AKfAK7KRhR6mKpKtTm06cYA7bCpGTWfYksIW+mVsdxPegQ==",
       "type": "package",
-      "path": "system.text.json/7.0.0",
+      "path": "system.text.json/7.0.2",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
@@ -10430,7 +10552,7 @@
         "lib/net7.0/System.Text.Json.xml",
         "lib/netstandard2.0/System.Text.Json.dll",
         "lib/netstandard2.0/System.Text.Json.xml",
-        "system.text.json.7.0.0.nupkg.sha512",
+        "system.text.json.7.0.2.nupkg.sha512",
         "system.text.json.nuspec",
         "useSharedDesignerContext.txt"
       ]
@@ -10939,6 +11061,20 @@
         "system.xml.xdocument.4.3.0.nupkg.sha512",
         "system.xml.xdocument.nuspec"
       ]
+    },
+    "Urls/1.0.0": {
+      "sha512": "6DumPK5w7FqIMtj5c4zeGQxAE0IxCSSHhaLk6mo2hx16VuXzuoI3wBX8HorxxJfAjQxMtIBB2RuztEeio7IxMQ==",
+      "type": "package",
+      "path": "urls/1.0.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/net45/Urls.dll",
+        "lib/net5.0/Urls.dll",
+        "lib/netstandard2.0/Urls.dll",
+        "urls.1.0.0.nupkg.sha512",
+        "urls.nuspec"
+      ]
     }
   },
   "projectFileDependencyGroups": {
@@ -10948,6 +11084,8 @@
       "Microsoft.EntityFrameworkCore.InMemory >= 7.0.0",
       "Microsoft.EntityFrameworkCore.SqlServer >= 7.0.0",
       "Microsoft.VisualStudio.Web.CodeGeneration.Design >= 7.0.0",
+      "RestClient.Net >= 6.0.0",
+      "RestSharp >= 110.2.0",
       "Swashbuckle.AspNetCore >= 6.5.0"
     ]
   },
@@ -11009,6 +11147,14 @@
           "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
             "target": "Package",
             "version": "[7.0.0, )"
+          },
+          "RestClient.Net": {
+            "target": "Package",
+            "version": "[6.0.0, )"
+          },
+          "RestSharp": {
+            "target": "Package",
+            "version": "[110.2.0, )"
           },
           "Swashbuckle.AspNetCore": {
             "target": "Package",
